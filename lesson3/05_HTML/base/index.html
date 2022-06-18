@@ -176,11 +176,11 @@
                 <form action="http://fe.it-academy.by/TestForm.php" method="post" enctype="multipart/form-data">
                     <fieldset>
                         <legend>Строка поиска</legend>
-                        <input type="text" name="text" placeholder="Только русские буквы" pattern="'[А-Яа-я]+'">
+                        <input type="text" name="text" placeholder="Только русские буквы" pattern="[А-Яа-яЁё]">
                         
                         <p><i>Телефонный номер в формате
                             +ХХХ-ХХ-ХХХХХХХ, где Х - любое числоы</i></p>
-                        <input type="tel" name="tel" pattern="/^(\s*)?(\+)?([- _():=+]?\d[- _():=+]?){10,14}(\s*)?$/"   placeholder="+375-29-1234567">
+                        <input type="tel" name="tel" pattern="\+375"   placeholder="+375-29-1234567">
                 
                         <br>
                         <input type="submit" value="Проверить">
