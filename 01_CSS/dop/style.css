@@ -1,0 +1,34 @@
+p{
+    text-align: end;
+}
+
+span{
+    font-style: italic;
+}
+
+.vip{
+    font-weight: bold;
+}
+
+.vip2{
+    text-align: start;
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: underline;
+    text-indent: 2%;
+}
+
+.text{
+    text-align: start;
+    font-family: 'Lobster', cursive;
+    font-size: x-small;
+    color: rgba(107, 148, 144, 0.74);
+    white-space: pre;
+   
+}
+
+.textend{
+    text-align: start;
+    font-weight: 50%;
+
+}
