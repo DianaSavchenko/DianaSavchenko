@@ -1,0 +1,57 @@
+
+div{
+    background-image:url(./cards.7e0a18f0.png) ;
+    width: 137px;
+    height: 194px;
+   
+}
+
+.lady{
+    background-image:url(./cards.7e0a18f0.png) ;
+    width: 119px;
+    height: 168px;
+    background-position-x: 568px;
+    background-position-y: 785px;
+    background-color: red;
+    float: left;
+    margin-left: 76px;
+    margin-top: -127px;
+    padding: 10px;
+}
+
+.nine{
+    background-image:url(./cards.7e0a18f0.png) ;
+    width: 137px;
+    height: 181px;
+    background-color: blue;
+    background-position-x: 852px;
+    background-position-y: 1183px;
+    float: left;
+    padding-top: 10px;
+    margin-left: -45px;
+    margin-top: -57px;
+}
+
+.ace{
+    background-image:url(./cards.7e0a18f0.png) ;
+    width: 122px;
+    height: 167px;
+    background-color: green;
+    background-position-x: -145px;
+    background-position-y: 386px;
+    float: left;
+    padding: 10px;
+    margin-left: -60px;
+}
+
+.joker{
+    background-image:url(./cards.7e0a18f0.png) ;
+    width: 118px;
+    height: 168px;
+    background-color: yellowgreen;
+    background-position-y: 188px;
+    background-position-x: -1px;
+    float: left;
+    padding: 10px;
+    margin-left: -59px;
+    margin-top: 57px;
