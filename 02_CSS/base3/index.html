@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+
+        .navigation{
+            background-color: rgb(240, 235, 235);
+            width: 15em;
+            float: left;
+        }
+
+        .state{
+            background-color: gray;
+            margin-bottom: 0.2em;
+            margin-left: 15em;
+
+        }
+
+        .bottom{
+            background-color: rgb(240, 235, 235);
+            clear: both;
+        }
+
+        .wrap{
+            background-color: rgb(250, 250, 243);
+            margin-bottom: 0.2em;
+            clear: both;
+        }
+
+        .img{
+            float: right;
+            clear: both;
+            width: 3em;
+        }
+
+
+        .clear{
+            clear: both;
+        }
+     
+    
+    
+    </style>
+</head>
+<body>
+   
+
+    <div class="wrap">
+
+        <div class="navigation">
+            <h2>Блок навигации</h2>
+           <ul>
+           <li>Ширина 15em</li>
+           <li>Должен присутствовать цвет фона</li>
+           <li>Распологается слева</li>
+           <li>Блок навигации наполните контентом достаточным, чтобы по высоте он начинал захватывать другую статью, как показанно в данном примере</li>
+           </ul>
+
+        </div>
+
+    
+        <div class="state">
+            <h2>Статья 1</h2>
+       Размер блока:<br>
+       Занимает всю доступную ширину<br>
+       Должен присутствовать цвет фона<br>
+       Во всех "статьях" сделайте отступ снизу от соседей равным .2ем, при помощи свойства margin-bottom<br>
+       </div>
+
+       <div class="state" >
+        <h2>Статья 2</h2>
+        Размер блока:<br>
+        Занимает всю доступную ширину<br>
+        Должен присутствовать цвет фона<br>
+        Во всех "статьях" сделайте отступ снизу от соседей равным .2ем, при помощи свойства margin-bottom. Картинка вставлена при помощи тега, плавание организовано по правому краю внутри данной статьи для этой картинки.
+            <div class="img"></div><img src="ikon.png" alt="">
+       </div>
+
+       <div class="clear"></div>
+   
+
+    </div>
+
+    <div class="bottom">Нижний блок подвал. Занимает всю доступнуюширину. Высота определяетсяпомещенным внутрь контентом.</div>
+
+   
+     
+</body>
+</html>
