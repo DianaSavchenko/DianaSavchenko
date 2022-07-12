@@ -7,68 +7,62 @@
     <title>Document</title>
 
 <style>
- div.days{
+  .days{
     display: flex;
 
  }
- div.days > div {
+  .days > div {
     background-color: gray;
     border: solid black 1px;
     position: relative;
     width: 100px;
  }
 
- div.menu {
+  .menu {
     display: none;
     width: 100px;
  }
 
-div.menu > div { 
+ .menu > div { 
     background-color: pink;
     border: solid black 1 px; 
     cursor: pointer;
 }
 
-div.days > div:hover div.menu {
+ .days > div:hover .menu {
     display: block;
     position: absolute;
 }
 
 
 @media all and (max-width: 620px;){
-div.days{ 
+.days{ 
     width: 100px;
-    display: flex;
-    flex-direction: column;
-
+   
 }
 
-div.days > div {
+.days > div {
     background-color: gray;
     border: solid black 1px;
     position: relative;
-    width: 100px;
+    
  }
 
- div.menu {
+ .menu {
+    width: 150px;
     display: none;
  }
 
- div.menu > div { 
+ .menu > div { 
     background-color: pink;
     border: solid black 1 px; 
     cursor: pointer;
 
 }
 
-div.days > div:hover div.menu {
-    display: block;
-    flex-direction: row;
-    position: relative;
-    left:80%; 
-    top: 0%; 
-    z-index: 1;
-
+.days > div:hover .menu {
+  
+    display: block; position: absolute; left: 80%; top: 90%; z-index: 1
     
 }
 }
